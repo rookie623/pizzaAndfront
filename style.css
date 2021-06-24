@@ -1,0 +1,81 @@
+/* globales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    height: 100px;
+}
+
+.logo {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    margin: 0 6px;
+}
+
+
+
+/* body */
+
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    background-color:#222222;
+    justify-content: space-between;
+}
+
+main {
+    background-color:#E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+.promo {
+    display: flex;
+    background-image: url("../img/delivery.png");
+    background-size: cover;
+    width: 490px;
+    height: 350px;
+}
+
+.podio {
+    background-color: #FFFFFF;
+    width: 490px;
+    height: 350px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
